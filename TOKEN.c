@@ -31,7 +31,7 @@ char **TOKEN(char *line)
         return(NULL);
     }
 
-    token strtok (line, DELIM);
+    token = strtok(line, DELIM);
    
     while (token)
     {

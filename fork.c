@@ -26,9 +26,10 @@ int main(void)
         }
     }
     else
+    {
         waitpid (fork_value, &status, 0);
         printf("child finished\n");
         printf("status of child is %d\n", WEXITSTATUS (status));
-    
+    }
     return (0);
 }

@@ -12,8 +12,8 @@
 #define DELIM " \t\n"
 char *read_line (void);
 char *_strdup (const char *str);
-int_strcmp(char *s1, char *s2);
-int_strlen(char *s);
+int _strcmp(char *s1, char *s2);
+int _strlen(char *s);
 char *_strcat(char *dest, char *src);
 char *_strcpy(char *dest, char *src);
 int _execute(char **command, char **argv);

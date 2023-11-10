@@ -10,7 +10,8 @@ int _execute(char **command, char **argv)
         if (execve(command[0], command, environ) == -1)
         {
             perror (argv[0]);
-            freearrayofsring(command); 
+            freearrayofsring(command);
+	   exit(100); 
         }
     }
     else
