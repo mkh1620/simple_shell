@@ -21,7 +21,8 @@ char **TOKEN(char *line);
 void freearrayofsring(char **arr);
 extern char **environ;
 int _execute(char **command, char **argv);
-
+char *_getenv(char *name);
+char *_getpath(char *com);
 
 
 

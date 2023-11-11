@@ -13,4 +13,4 @@ void freearrayofsring(char **arr)
     }
     
     free (arr), arr = NULL;
-} 
+}
