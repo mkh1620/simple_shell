@@ -23,8 +23,9 @@ extern char **environ;
 int _execute(char **command, char **argv);
 char *_getenv(char *name);
 char *_getpath(char *com);
-
-
+void error(char *name ,char *com, int i);
+void rev_str(char *str , int len);
+char *_itoa(int n);
 
 
 
